@@ -4,9 +4,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "now-build": "parcel build index.html",
-    "now-dev": "parcel index.html",
-    "local": "now dev"
+    "build": "parcel build public/index.html",
+    "now-build": "yarn build",
+    "now-dev": "parcel public/index.html",
+    "dev": "now dev"
   },
   "dependencies": {
     "preact": "^10.0.0-rc.0"
