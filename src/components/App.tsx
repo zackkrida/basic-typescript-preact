@@ -1,13 +1,8 @@
-import { h, Fragment } from 'preact'
-
-import Header from './Header'
-import Footer from './Footer'
+import { h } from 'preact'
 export default function App({  }: any) {
   return (
     <div>
-      <Header />
-      <main>This site is great!</main>
-      <Footer name="Basic TypeScript Preact" />
+      <p>Hello world!</p>
     </div>
   )
 }
