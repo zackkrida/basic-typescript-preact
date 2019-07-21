@@ -2,18 +2,19 @@
   "engines": {
     "node": "10.x"
   },
+  "license": "MIT",
   "scripts": {
-    "now-build": "parcel build index.html",
-    "now-dev": "parcel index.html",
-    "local": "now dev"
+    "build": "parcel build public/index.html",
+    "dev": "parcel public/index.html",
+    "now-build": "yarn build",
+    "now-dev": "yarn dev"
   },
   "dependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-preact": "^2.0.0",
-    "preact": "^8.4.2"
+    "preact": "^10.0.0-rc.0"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-preact": "^2.0.0",
     "@babel/core": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
     "parcel-bundler": "^1.12.3",
