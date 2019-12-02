@@ -4,17 +4,16 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "parcel build public/index.html",
-    "dev": "parcel public/index.html",
-    "now-build": "yarn build",
-    "now-dev": "yarn dev"
+    "build": "parcel build static/index.html --out-dir=public",
+    "dev": "parcel static/index.html"
   },
   "dependencies": {
     "preact": "^10.0.5",
     "preact-router": "^3.1.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
+    "now": "^16.6.0",
+    "parcel": "^1.12.4",
     "typescript": "^3.7.2"
   },
   "volta": {
