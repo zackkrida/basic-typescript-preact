@@ -10,14 +10,14 @@
     "now-dev": "yarn dev"
   },
   "dependencies": {
-    "preact": "^10"
+    "preact": "^10.0.5",
+    "preact-router": "^3.1.0"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-preact": "^2.0.0",
-    "@babel/core": "^7.5.4",
-    "@babel/preset-react": "^7.0.0",
-    "parcel-bundler": "^1.12.3",
-    "typescript": "^3.5.3"
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.2"
+  },
+  "volta": {
+    "node": "10.17.0"
   }
 }
