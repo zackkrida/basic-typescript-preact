@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "license": "MIT",
   "scripts": {
@@ -8,15 +8,18 @@
     "dev": "parcel static/index.html"
   },
   "dependencies": {
-    "preact": "^10.0.5",
-    "preact-router": "^3.1.0"
+    "preact": "^10.3.4",
+    "preact-router": "^3.2.1"
   },
   "devDependencies": {
-    "now": "^16.6.0",
-    "parcel": "^1.12.4",
-    "typescript": "^3.7.2"
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-preset-preact": "^2.0.0",
+    "now": "^17.0.4",
+    "parcel": "^2.0.0-alpha.3.2",
+    "typescript": "^3.8.3"
   },
   "volta": {
-    "node": "10.17.0"
+    "node": "12.16.1",
+    "yarn": "1.22.4"
   }
 }
