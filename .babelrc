@@ -1,0 +1,3 @@
+{
+  "presets": ["preact", ["@babel/preset-typescript", { "jsxPragma": "h" }]]
+}
