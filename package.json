@@ -8,14 +8,15 @@
     "dev": "parcel static/index.html"
   },
   "dependencies": {
-    "preact": "^10.3.4",
+    "preact": "^10.4.0",
     "preact-router": "^3.2.1"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.8.3",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
     "babel-preset-preact": "^2.0.0",
-    "now": "^17.0.4",
-    "parcel": "^2.0.0-alpha.3.2",
+    "now": "^18.0.0",
+    "parcel": "^1.12.4",
     "typescript": "^3.8.3"
   },
   "volta": {
